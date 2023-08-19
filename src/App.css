@@ -1,0 +1,235 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+
+.card{
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.img-cont{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.img-cont h1{
+  font-size: 40px;
+}
+
+.img-cont h3{
+  font-size: 15px;
+  color: lightgray
+}
+
+.details-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+ 
+}
+
+.profile-pic{
+  width: 120px;
+  height: 120px;
+}
+
+.each-details{
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding: 15px;
+}
+
+.each-details h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: antiquewhite;
+}
+
+.each-details span{
+  font-size: 25px;
+  color: grey
+}
+
+.each-details h3{
+  font-size: 25px;
+  color: white
+}
+
+@media screen and (min-width: 10px) and (max-width: 600px) {
+  .img-cont h1{
+    font-size: 30px;
+  }
+
+  .img-cont h3{
+    font-size: 14px;
+  }
+
+  .each-details h1{
+    font-size: 28px;
+  }
+
+  .each-details h3{
+    font-size: 22px;
+  }
+
+  .each-details span{
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .img-cont h1{
+    font-size: 32px;
+  }
+
+  .img-cont h3{
+    font-size: 24px;
+  }
+
+  .each-details h1{
+    font-size: 38px;
+  }
+
+  .each-details h3{
+    font-size: 26px;
+  }
+
+  .each-details span{
+    font-size: 26px;
+  }
+}
+
+
+
+/* Login */
+
+.login-page{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card{
+  width: 30%;
+  background-color: white;
+  height: 55%;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 18px;
+}
+
+.welcome{
+  color:#757575;
+  font-size: 18px;
+}
+
+.sign-in{
+  font-size: 32px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;;
+}
+
+.input{
+  height: 38px;
+  width:100%;
+  outline: none;
+  border: 1px solid grey;
+  padding: 8px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.input:focus{
+  border: 1px solid black;
+}
+
+.button{
+  background-image: linear-gradient(to bottom, #615Af7, #4B43EC);
+  color: white;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.button:active{
+  transform: translateY(4px);
+}
+
+
+
+.forgot{
+  color: #625BF7;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+}
+
+.dont{
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.sign-up{
+  color: #615Af7;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.wave{
+  width: 30px;
+  height: 30px;
+}
+
+.wave-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 10px) and (max-width: 600px) {
+  .login-card{
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .login-card{
+    width: 60%;
+  }
+}
